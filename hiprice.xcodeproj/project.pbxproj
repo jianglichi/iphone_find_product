@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* hipriceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* hipriceAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* hipriceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* hipriceViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* hipriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* hipriceViewController.m */; };
+		EC059D2F13AF240B006CF450 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EC059D2D13AF240B006CF450 /* NSData+Base64.m */; };
+		EC059D5013AF25D0006CF450 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC059D4F13AF25D0006CF450 /* NSStringAdditions.m */; };
+		EC0D3D3013531931000A93D4 /* price_store.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D3D2F13531931000A93D4 /* price_store.m */; };
+		EC74E662137D5083006984C2 /* set_button.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74E661137D5083006984C2 /* set_button.m */; };
+		EC74E671137D519C006984C2 /* set_button.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC74E670137D519C006984C2 /* set_button.xib */; };
+		ECE464F81355865A00709BA7 /* view_store.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE464F71355865A00709BA7 /* view_store.m */; };
+		ECE464FD1355868700709BA7 /* view_yahoo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE464FC1355868700709BA7 /* view_yahoo.m */; };
+		ECE4650E1355882900709BA7 /* view_yahoo.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE4650D1355882900709BA7 /* view_yahoo.xib */; };
+		ECEABA25131D06AA003D7519 /* AsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEABA24131D06AA003D7519 /* AsynchronousImageView.m */; };
+		ECEF6960130EA69C00DDE628 /* Curl.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF695F130EA69C00DDE628 /* Curl.m */; };
+		ECF26DDD1382104D00F47D8E /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF26DDB1382104D00F47D8E /* up.png */; };
+		ECF26DDE1382104D00F47D8E /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF26DDC1382104D00F47D8E /* down.png */; };
+		ECF7B35D1314AD6F002694CA /* mytablecell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7B35C1314AD6F002694CA /* mytablecell.m */; };
+		ECF7B3601314AD99002694CA /* myimageview.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7B35F1314AD99002694CA /* myimageview.m */; };
+		ECF890AD1396496700C71B90 /* AlertAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF890AB1396496700C71B90 /* AlertAnimationViewController.m */; };
+		ECFAD7E8131399BE00792F29 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAD7E7131399BE00792F29 /* RegexKitLite.m */; };
+		ECFEDE701356AEBE00C9319B /* price_yahoo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFEDE6F1356AEBE00C9319B /* price_yahoo.m */; };
+		ECFEDE831356E4B700C9319B /* view_store.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECFEDE821356E4B700C9319B /* view_store.xib */; };
+		ECFEDF1413581E5D00C9319B /* view_yahoo_product.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECFEDF1313581E5D00C9319B /* view_yahoo_product.xib */; };
+		ECFEDF311358270300C9319B /* view_yahoo_product.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFEDF301358270300C9319B /* view_yahoo_product.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* hipriceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hipriceAppDelegate.h; path = Classes/hipriceAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* hipriceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hipriceAppDelegate.m; path = Classes/hipriceAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* hiprice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiprice.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* hipriceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = hipriceViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* hipriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hipriceViewController.h; path = Classes/hipriceViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* hipriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hipriceViewController.m; path = Classes/hipriceViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* hiprice_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hiprice_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* hiprice-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hiprice-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EC059D2D13AF240B006CF450 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		EC059D2E13AF240B006CF450 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EC059D4E13AF25D0006CF450 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringAdditions.h; path = ../NSStringAdditions.h; sourceTree = "<group>"; };
+		EC059D4F13AF25D0006CF450 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringAdditions.m; path = ../NSStringAdditions.m; sourceTree = "<group>"; };
+		EC0D3D2F13531931000A93D4 /* price_store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = price_store.m; sourceTree = "<group>"; };
+		EC0D3D3113531941000A93D4 /* price_store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = price_store.h; sourceTree = "<group>"; };
+		EC74E660137D5083006984C2 /* set_button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set_button.h; sourceTree = "<group>"; };
+		EC74E661137D5083006984C2 /* set_button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = set_button.m; sourceTree = "<group>"; };
+		EC74E670137D519C006984C2 /* set_button.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = set_button.xib; sourceTree = "<group>"; };
+		ECE464F61355865A00709BA7 /* view_store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view_store.h; sourceTree = "<group>"; };
+		ECE464F71355865A00709BA7 /* view_store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view_store.m; sourceTree = "<group>"; };
+		ECE464FB1355868700709BA7 /* view_yahoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view_yahoo.h; sourceTree = "<group>"; };
+		ECE464FC1355868700709BA7 /* view_yahoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view_yahoo.m; sourceTree = "<group>"; };
+		ECE4650D1355882900709BA7 /* view_yahoo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = view_yahoo.xib; sourceTree = "<group>"; };
+		ECEABA23131D06AA003D7519 /* AsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsynchronousImageView.h; path = ../AsynchronousImageView.h; sourceTree = "<group>"; };
+		ECEABA24131D06AA003D7519 /* AsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsynchronousImageView.m; path = ../AsynchronousImageView.m; sourceTree = "<group>"; };
+		ECEF695F130EA69C00DDE628 /* Curl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curl.m; sourceTree = "<group>"; };
+		ECEF6961130EA6C700DDE628 /* Curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curl.h; sourceTree = "<group>"; };
+		ECF26D9813820AC500F47D8E /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		ECF26DDB1382104D00F47D8E /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		ECF26DDC1382104D00F47D8E /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		ECF7B35B1314AD52002694CA /* mytablecell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mytablecell.h; sourceTree = "<group>"; };
+		ECF7B35C1314AD6F002694CA /* mytablecell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mytablecell.m; sourceTree = "<group>"; };
+		ECF7B35E1314AD86002694CA /* myimageview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myimageview.h; sourceTree = "<group>"; };
+		ECF7B35F1314AD99002694CA /* myimageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myimageview.m; sourceTree = "<group>"; };
+		ECF890AB1396496700C71B90 /* AlertAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertAnimationViewController.m; sourceTree = "<group>"; };
+		ECF890AC1396496700C71B90 /* AlertAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertAnimationViewController.h; sourceTree = "<group>"; };
+		ECFAD7E6131399B300792F29 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		ECFAD7E7131399BE00792F29 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		ECFEDE6F1356AEBE00C9319B /* price_yahoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = price_yahoo.m; sourceTree = "<group>"; };
+		ECFEDE711356AED500C9319B /* price_yahoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = price_yahoo.h; sourceTree = "<group>"; };
+		ECFEDE821356E4B700C9319B /* view_store.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = view_store.xib; sourceTree = "<group>"; };
+		ECFEDF1313581E5D00C9319B /* view_yahoo_product.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = view_yahoo_product.xib; sourceTree = "<group>"; };
+		ECFEDF2F1358270300C9319B /* view_yahoo_product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view_yahoo_product.h; sourceTree = "<group>"; };
+		ECFEDF301358270300C9319B /* view_yahoo_product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view_yahoo_product.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC059D2D13AF240B006CF450 /* NSData+Base64.m */,
+				EC059D2E13AF240B006CF450 /* NSData+Base64.h */,
+				ECF890AC1396496700C71B90 /* AlertAnimationViewController.h */,
+				ECF890AB1396496700C71B90 /* AlertAnimationViewController.m */,
+				ECFEDE711356AED500C9319B /* price_yahoo.h */,
+				ECFEDE6F1356AEBE00C9319B /* price_yahoo.m */,
+				EC0D3D3113531941000A93D4 /* price_store.h */,
+				EC0D3D2F13531931000A93D4 /* price_store.m */,
+				ECF7B35F1314AD99002694CA /* myimageview.m */,
+				ECF7B35E1314AD86002694CA /* myimageview.h */,
+				ECF7B35B1314AD52002694CA /* mytablecell.h */,
+				ECF7B35C1314AD6F002694CA /* mytablecell.m */,
+				ECEABA23131D06AA003D7519 /* AsynchronousImageView.h */,
+				ECEABA24131D06AA003D7519 /* AsynchronousImageView.m */,
+				ECFAD7E7131399BE00792F29 /* RegexKitLite.m */,
+				ECFAD7E6131399B300792F29 /* RegexKitLite.h */,
+				ECEF6961130EA6C700DDE628 /* Curl.h */,
+				ECEF695F130EA69C00DDE628 /* Curl.m */,
+				EC059D4E13AF25D0006CF450 /* NSStringAdditions.h */,
+				EC059D4F13AF25D0006CF450 /* NSStringAdditions.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* hiprice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* hipriceAppDelegate.h */,
+				1D3623250D0F684500981E51 /* hipriceAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* hipriceViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* hipriceViewController.m */,
+				ECF26D9813820AC500F47D8E /* Constant.h */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				ECF26D9A13820B0B00F47D8E /* SubViews */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				ECF26DD313820FA000F47D8E /* Images */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* hiprice_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* hipriceViewController.xib */,
+				EC74E670137D519C006984C2 /* set_button.xib */,
+				ECE4650D1355882900709BA7 /* view_yahoo.xib */,
+				ECFEDE821356E4B700C9319B /* view_store.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				ECFEDF1313581E5D00C9319B /* view_yahoo_product.xib */,
+				8D1107310486CEB800E47090 /* hiprice-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECF26D9A13820B0B00F47D8E /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				EC74E660137D5083006984C2 /* set_button.h */,
+				EC74E661137D5083006984C2 /* set_button.m */,
+				ECFEDF2F1358270300C9319B /* view_yahoo_product.h */,
+				ECFEDF301358270300C9319B /* view_yahoo_product.m */,
+				ECE464F61355865A00709BA7 /* view_store.h */,
+				ECE464F71355865A00709BA7 /* view_store.m */,
+				ECE464FB1355868700709BA7 /* view_yahoo.h */,
+				ECE464FC1355868700709BA7 /* view_yahoo.m */,
+			);
+			name = SubViews;
+			sourceTree = "<group>";
+		};
+		ECF26DD313820FA000F47D8E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECF26DDB1382104D00F47D8E /* up.png */,
+				ECF26DDC1382104D00F47D8E /* down.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* hiprice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "hiprice" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hiprice;
+			productName = hiprice;
+			productReference = 1D6058910D05DD3D006BFB54 /* hiprice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hiprice" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* hiprice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* hipriceViewController.xib in Resources */,
+				ECE4650E1355882900709BA7 /* view_yahoo.xib in Resources */,
+				ECFEDE831356E4B700C9319B /* view_store.xib in Resources */,
+				ECFEDF1413581E5D00C9319B /* view_yahoo_product.xib in Resources */,
+				EC74E671137D519C006984C2 /* set_button.xib in Resources */,
+				ECF26DDD1382104D00F47D8E /* up.png in Resources */,
+				ECF26DDE1382104D00F47D8E /* down.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* hipriceAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* hipriceViewController.m in Sources */,
+				ECEF6960130EA69C00DDE628 /* Curl.m in Sources */,
+				ECFAD7E8131399BE00792F29 /* RegexKitLite.m in Sources */,
+				ECF7B35D1314AD6F002694CA /* mytablecell.m in Sources */,
+				ECF7B3601314AD99002694CA /* myimageview.m in Sources */,
+				ECEABA25131D06AA003D7519 /* AsynchronousImageView.m in Sources */,
+				EC0D3D3013531931000A93D4 /* price_store.m in Sources */,
+				ECE464F81355865A00709BA7 /* view_store.m in Sources */,
+				ECE464FD1355868700709BA7 /* view_yahoo.m in Sources */,
+				ECFEDE701356AEBE00C9319B /* price_yahoo.m in Sources */,
+				ECFEDF311358270300C9319B /* view_yahoo_product.m in Sources */,
+				EC74E662137D5083006984C2 /* set_button.m in Sources */,
+				ECF890AD1396496700C71B90 /* AlertAnimationViewController.m in Sources */,
+				EC059D2F13AF240B006CF450 /* NSData+Base64.m in Sources */,
+				EC059D5013AF25D0006CF450 /* NSStringAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = hiprice_Prefix.pch;
+				INFOPLIST_FILE = "hiprice-Info.plist";
+				PRODUCT_NAME = hiprice;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = hiprice_Prefix.pch;
+				INFOPLIST_FILE = "hiprice-Info.plist";
+				PRODUCT_NAME = hiprice;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-licucore";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-licucore";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "hiprice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hiprice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

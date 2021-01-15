@@ -1,0 +1,644 @@
+Thiprice
+v7
+r0
+t320669578.938010
+cCheck dependencies
+cProcessInfoPlistFile /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/Info.plist hiprice-Info.plist
+cCompileXIB /Users/jianglichi/Documents/hiprice/MainWindow.xib
+cCompileXIB /Users/jianglichi/Documents/hiprice/hipriceViewController.xib
+cProcessPCH /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch.gch hiprice_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/main.o /Users/jianglichi/Documents/hiprice/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceAppDelegate.o /Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceViewController.o /Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/Curl.o /Users/jianglichi/Documents/hiprice/Classes/Curl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/price_yahoo.o /Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/RegexKitLite.o /Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/mytablecell.o /Users/jianglichi/Documents/hiprice/Classes/mytablecell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/myimageview.o /Users/jianglichi/Documents/hiprice/Classes/myimageview.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/AsynchronousImageView.o /Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice normal i386
+cGenerateDSYMFile /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app.dSYM /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice
+cTouch /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004CC1219E0000000000007AC8
+t1287725470
+s31432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004CC1219E00000000000045F5
+t1287725470
+s17909
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004CC1219F000000000000B765
+t1287725471
+s46949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004CC1225F0000000000001B27
+t1287725663
+s6951
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004CC1225F0000000000000E3B
+t1287725663
+s3643
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004CC1225F0000000000001DE5
+t1287725663
+s7653
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004CC1225F0000000000002033
+t1287725663
+s8243
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004CC1225F000000000000059D
+t1287725663
+s1437
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004CC1225F0000000000002D96
+t1287725663
+s11670
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004CC1225F0000000000000EAD
+t1287725663
+s3757
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004CC1225F000000000000049D
+t1287725663
+s1181
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004CC1225F0000000000000915
+t1287725663
+s2325
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004CC1225F0000000000006506
+t1287725663
+s25862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/AvailabilityMacros.h
+c000000004CB3FA08000000000000673C
+t1286863368
+s26428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FA0800000000000031E9
+t1286863368
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libkern/OSAtomic.h
+c000000004CB3E4860000000000002519
+t1286857862
+s9497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/mach-o/loader.h
+c000000004A4D4DFA000000000000EF91
+t1246580218
+s61329
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/objc/objc-runtime.h
+c000000004CB935700000000000000032
+t1287206256
+s50
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/objc/runtime.h
+c000000004CB9357000000000000053F9
+t1287206256
+s21497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/types.h
+c000000004CBFACAC0000000000002905
+t1287629996
+s10501
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11983400000000000010DD
+t1242667060
+s4317
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11A512000000000000190C
+t1242670354
+s6412
+
+N/Users/jianglichi/Documents/hiprice/AsynchronousImageView.h
+c000000004D6CCF44000000000000015B
+t1298976580
+s347
+i<Foundation/Foundation.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.h
+c000000004D6CCF44000000000000015B
+t1298976580
+s347
+i<Foundation/Foundation.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m
+c000000004D6CCF6D00000000000003F0
+t1298976621
+s1008
+i"AsynchronousImageView.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.h
+c000000004D63B0F600000000000001A6
+t1298378998
+s422
+i<Foundation/Foundation.h>
+i"Curl.h"
+i"RegexKitLite.h"
+i<Foundation/NSString.h>
+i<Foundation/NSObject.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m
+c000000004D64E9FF00000000000008CD
+t1298459135
+s2253
+i"price_yahoo.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/Curl.h
+c000000004D5E704D000000000000019A
+t1298034765
+s410
+i<Foundation/Foundation.h>
+i"Curl.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/Curl.m
+c000000004D64E95100000000000004C0
+t1298458961
+s1216
+i"Curl.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.h
+c000000004BC5E8E10000000000004130
+t1271261409
+s16688
+i<Foundation/NSArray.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSString.h>
+i<limits.h>
+i<stdint.h>
+i<sys/types.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m
+c000000004BCB02C90000000000032498
+t1271595721
+s205976
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFString.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNotification.h>
+i<Foundation/NSRunLoop.h>
+i<Foundation/NSGarbageCollector.h>
+i<objc/runtime.h>
+i<objc/objc-runtime.h>
+i<libkern/OSAtomic.h>
+i<mach-o/loader.h>
+i<AvailabilityMacros.h>
+i<dlfcn.h>
+i<string.h>
+i<stdarg.h>
+i<stdlib.h>
+i<stdio.h>
+i"RegexKitLite.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.h
+c000000004D64E4730000000000000411
+t1298457715
+s1041
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Curl.h"
+i"price_yahoo.h"
+i"mytablecell.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m
+c000000004D6CCFCE0000000000001C99
+t1298976718
+s7321
+i"hipriceAppDelegate.h"
+i"hipriceViewController.h"
+i"AsynchronousImageView.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.h
+c000000004D5E5BD50000000000000129
+t1298029525
+s297
+i<UIKit/UIKit.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m
+c000000004D5E56D300000000000005B6
+t1298028243
+s1462
+i"hipriceViewController.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/myimageview.h
+c000000004D5A5F810000000000000176
+t1297768321
+s374
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/myimageview.m
+c000000004D5B9735000000000000042A
+t1297848117
+s1066
+i"myimageview.h"
+
+N/Users/jianglichi/Documents/hiprice/Classes/mytablecell.h
+c000000004D64808000000000000001DD
+t1298432128
+s477
+i<UIKit/UIKit.h>
+
+N/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m
+c000000004D6CC5820000000000000A61
+t1298974082
+s2657
+i"mytablecell.h"
+i"myimageview.h"
+
+N/Users/jianglichi/Documents/hiprice/MainWindow.xib
+c000000004D6482000000000000007CAF
+t1298432512
+s31919
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app
+t1298976778
+s238
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app.dSYM
+t1298976778
+s102
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/Info.plist
+t1298976775
+s591
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/MainWindow.nib
+t1298976776
+s2054
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/PkgInfo
+t1298976775
+s8
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice
+t1298976778
+s100888
+
+N/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hipriceViewController.nib
+t1298976775
+s450
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/AsynchronousImageView.o
+t1298976777
+s40780
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/Curl.o
+t1298976777
+s13792
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/RegexKitLite.o
+t1298976778
+s140296
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hiprice.LinkFileList
+c000000004D6CD007000000000000048E
+t1298976775
+s1166
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceAppDelegate.o
+t1298976777
+s70708
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceViewController.o
+t1298976777
+s37724
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/main.o
+t1298976777
+s6284
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/myimageview.o
+t1298976777
+s45096
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/mytablecell.o
+t1298976777
+s42640
+
+N/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/price_yahoo.o
+t1298976777
+s13900
+
+N/Users/jianglichi/Documents/hiprice/hipriceViewController.xib
+c000000004D5E5C820000000000003916
+t1298029698
+s14614
+
+N/Users/jianglichi/Documents/hiprice/hiprice_Prefix.pch
+c000000004D5E56D300000000000000B7
+t1298028243
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jianglichi/Documents/hiprice/main.m
+c000000004D5E56D3000000000000015E
+t1298028243
+s350
+i<UIKit/UIKit.h>
+
+N/Users/jianglichi/Documents/hiprice/price_yahoo.h
+c000000004D63B0F600000000000001A6
+t1298378998
+s422
+i<Foundation/Foundation.h>
+i"Curl.h"
+i"RegexKitLite.h"
+i<Foundation/NSString.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch.gch
+t1298976777
+s15113424
+
+Nhiprice-Info.plist
+c000000004D5E56D3000000000000038D
+t1298028243
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320669575#320669575#0(0"0(0#1#0"8622153312#0"0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/AsynchronousImageView.o /Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.874710
+e320669577.960169
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/AsynchronousImageView.o
+x/Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m320669577#320669577#0(0"0(0#0#70"/Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m8623538944#1985"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/../AsynchronousImageView.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/AsynchronousImageView.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/Curl.o /Users/jianglichi/Documents/hiprice/Classes/Curl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.417292
+e320669577.526198
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/Curl.o
+x/Users/jianglichi/Documents/hiprice/Classes/Curl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jianglichi/Documents/hiprice/Classes/Curl.m320669577#320669577#0(0"0(0#0#50"/Users/jianglichi/Documents/hiprice/Classes/Curl.m8624252640#1948"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/Curl.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/Curl.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/RegexKitLite.o /Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.526301
+e320669578.799558
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/RegexKitLite.o
+x/Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m320669577#320669578#0(0"0(0#0#58"/Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m8621462848#1964"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/RegexKitLite.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/RegexKitLite.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceAppDelegate.o /Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.271093
+e320669577.506466
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceAppDelegate.o
+x/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m: In function '-[hipriceAppDelegate tableView:cellForRowAtIndexPath:]':
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:148: warning: 'setImage:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:148: warning: incompatible Objective-C types 'struct AsynchronousImageView *', expected 'struct UIImage *' when passing argument 1 of 'setImage:' from distinct Objective-C type
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m: At top level:
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: property 'research' requires method '-research' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: property 'research' requires the method 'setResearch:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: incomplete implementation of class 'hipriceAppDelegate'
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: method definition for '-searchBar:activate:' not found
+lSLF07#2@72"Compile /Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669577#320669577#0(1417"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m: In function '-[hipriceAppDelegate tableView:cellForRowAtIndexPath:]':/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:148: warning: 'setImage:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:148: warning: incompatible Objective-C types 'struct AsynchronousImageView *', expected 'struct UIImage *' when passing argument 1 of 'setImage:' from distinct Objective-C type/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m: At top level:/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: property 'research' requires method '-research' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: property 'research' requires the method 'setResearch:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: incomplete implementation of class 'hipriceAppDelegate'/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m:259: warning: method definition for '-searchBar:activate:' not found7(22@195"'setImage:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)320669577#136#275#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#148#0#148#0#33"'*' is deprecated (declared at *)0(22@162"Incompatible Objective-C types 'struct AsynchronousImageView *', expected 'struct UIImage *' when passing argument 1 of 'setImage:' from distinct Objective-C type320669577#411#242#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#148#0#148#0#0"0(23@13"At top level:320669577#653#80#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#0#0#0#0#0"0(22@124"Property 'research' requires method '-research' to be defined - use @synthesize, @dynamic or provide a method implementation320669577#733#204#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#259#0#259#0#0"0(22@131"Property 'research' requires the method 'setResearch:' to be defined - use @synthesize, @dynamic or provide a method implementation320669577#937#211#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#259#0#259#0#0"0(22@55"Incomplete implementation of class 'hipriceAppDelegate'320669577#1148#135#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#259#0#259#0#38"incomplete implementation of class '*'0(22@54"Method definition for '-searchBar:activate:' not found320669577#1283#134#0(6@64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m320669518#259#0#259#0#35"method definition for '*' not found0(0#0#64"/Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m8623616960#1976"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/hipriceAppDelegate.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceAppDelegate.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceViewController.o /Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.337582
+e320669577.417196
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceViewController.o
+x/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m:66: warning: property 'search' requires method '-search' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m:66: warning: property 'search' requires the method 'setSearch:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@75"Compile /Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m320669577#320669577#0(411"/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m:66: warning: property 'search' requires method '-search' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m:66: warning: property 'search' requires the method 'setSearch:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'search' requires method '-search' to be defined - use @synthesize, @dynamic or provide a method implementation320669577#0#202#0(6@67"/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m319721043#66#0#66#0#0"0(22@127"Property 'search' requires the method 'setSearch:' to be defined - use @synthesize, @dynamic or provide a method implementation320669577#202#209#0(6@67"/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m319721043#66#0#66#0#0"0(0#0#67"/Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m8625277984#1982"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/hipriceViewController.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hipriceViewController.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/main.o /Users/jianglichi/Documents/hiprice/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.218729
+e320669577.337475
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/main.o
+x/Users/jianglichi/Documents/hiprice/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jianglichi/Documents/hiprice/main.m320669577#320669577#0(0"0(0#0#42"/Users/jianglichi/Documents/hiprice/main.m8625370240#1940"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/main.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/main.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/myimageview.o /Users/jianglichi/Documents/hiprice/Classes/myimageview.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.774283
+e320669577.874612
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/myimageview.o
+x/Users/jianglichi/Documents/hiprice/Classes/myimageview.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jianglichi/Documents/hiprice/Classes/myimageview.m320669577#320669577#0(0"0(0#0#57"/Users/jianglichi/Documents/hiprice/Classes/myimageview.m8624665088#1962"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/myimageview.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/myimageview.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/mytablecell.o /Users/jianglichi/Documents/hiprice/Classes/mytablecell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.654788
+e320669577.774189
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/mytablecell.o
+x/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m:112: warning: property 'label1' requires method '-label1' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m:112: warning: property 'label1' requires the method 'setLabel1:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@65"Compile /Users/jianglichi/Documents/hiprice/Classes/mytablecell.m320669577#320669577#0(393"/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m:112: warning: property 'label1' requires method '-label1' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m:112: warning: property 'label1' requires the method 'setLabel1:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'label1' requires method '-label1' to be defined - use @synthesize, @dynamic or provide a method implementation320669577#0#193#0(6@57"/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m320666882#112#0#112#0#0"0(22@127"Property 'label1' requires the method 'setLabel1:' to be defined - use @synthesize, @dynamic or provide a method implementation320669577#193#200#0(6@57"/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m320666882#112#0#112#0#0"0(0#0#57"/Users/jianglichi/Documents/hiprice/Classes/mytablecell.m8625277504#1962"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/mytablecell.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/mytablecell.o0#
+
+CCompileC build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/price_yahoo.o /Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669577.506567
+e320669577.654687
+r1
+xCompileC
+xbuild/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/price_yahoo.o
+x/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m: In function '-[price_yahoo getItem:]':
+o/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m:28: warning: passing argument 2 of 'getUrl::' makes pointer from integer without a cast
+lSLF07#2@68"Compile /Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m320669577#320669577#0(250"/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m: In function '-[price_yahoo getItem:]':/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m:28: warning: passing argument 2 of 'getUrl::' makes pointer from integer without a cast1(22@74"Passing argument 2 of 'getUrl::' makes pointer from integer without a cast320669577#101#149#0(6@60"/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m320151935#28#0#28#0#0"0(0#0#60"/Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m8621676416#1965"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch -c /Users/jianglichi/Documents/hiprice/Classes/../price_yahoo.m -o /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/price_yahoo.o0#
+
+CCompileXIB /Users/jianglichi/Documents/hiprice/MainWindow.xib
+s320669575.409655
+e320669576.140037
+r1
+xCompileXIB
+x/Users/jianglichi/Documents/hiprice/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/jianglichi/Documents/hiprice/MainWindow.xib:10: warning: 'Hiprice View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.
+lSLF07#2@25"CompileXIB MainWindow.xib320669575#320669576#0(219"/* com.apple.ibtool.document.warnings *//Users/jianglichi/Documents/hiprice/MainWindow.xib:10: warning: 'Hiprice View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.1(22@113"'Hiprice View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.320669576#18446744073709551615#0#0(6@50"/Users/jianglichi/Documents/hiprice/MainWindow.xib320125312#10#0#10#0#0"0(0#0#50"/Users/jianglichi/Documents/hiprice/MainWindow.xib8625953312#563"    cd /Users/jianglichi/Documents/hiprice    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/MainWindow.nib /Users/jianglichi/Documents/hiprice/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/jianglichi/Documents/hiprice/hipriceViewController.xib
+s320669575.410391
+e320669575.993923
+r1
+xCompileXIB
+x/Users/jianglichi/Documents/hiprice/hipriceViewController.xib
+lSLF07#2@36"CompileXIB hipriceViewController.xib320669575#320669575#0(0"0(0#0#61"/Users/jianglichi/Documents/hiprice/hipriceViewController.xib8625033984#585"    cd /Users/jianglichi/Documents/hiprice    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hipriceViewController.nib /Users/jianglichi/Documents/hiprice/hipriceViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app.dSYM /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice
+s320669578.866403
+e320669578.934430
+r1
+xGenerateDSYMFile
+x/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app.dSYM
+x/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice
+lSLF07#2@113"GenerateDSYMFile build/Release-iphonesimulator/hiprice.app.dSYM build/Release-iphonesimulator/hiprice.app/hiprice320669578#320669578#0(0"0(0#0#85"/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice8626458400#378"    cd /Users/jianglichi/Documents/hiprice    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice -o /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app.dSYM0#
+
+CLd /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice normal i386
+s320669578.799712
+e320669578.866306
+r1
+xLd
+x/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice
+xnormal
+xi386
+lSLF07#2@90"Link /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice320669578#320669578#0(0"0(0#0#0"8621766048#903"    cd /Users/jianglichi/Documents/hiprice    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -filelist /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/Objects-normal/i386/hiprice.LinkFileList -mmacosx-version-min=10.6 -licucore -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/hiprice0#
+
+CProcessInfoPlistFile /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/Info.plist hiprice-Info.plist
+s320669575.335768
+e320669575.409552
+r1
+xProcessInfoPlistFile
+x/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/Info.plist
+xhiprice-Info.plist
+lSLF07#2@26"Process hiprice-Info.plist320669575#320669575#0(0"0(0#0#54"/Users/jianglichi/Documents/hiprice/hiprice-Info.plist8620929504#474"    cd /Users/jianglichi/Documents/hiprice    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility hiprice-Info.plist -genpkginfo /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app/Info.plist0#
+
+CProcessPCH /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch.gch hiprice_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320669576.140231
+e320669577.218324
+r1
+xProcessPCH
+x/var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch.gch
+xhiprice_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile hiprice_Prefix.pch320669576#320669577#0(0"0(0#0#54"/Users/jianglichi/Documents/hiprice/hiprice_Prefix.pch8624043552#1833"    cd /Users/jianglichi/Documents/hiprice    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-generated-files.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-own-target-headers.hmap -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-all-target-headers.hmap -iquote /Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/hiprice-project-headers.hmap -F/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator -I/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/include -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources/i386 -I/Users/jianglichi/Documents/hiprice/build/hiprice.build/Release-iphonesimulator/hiprice.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/jianglichi/Documents/hiprice/hiprice_Prefix.pch -o /var/folders/2l/2l9egqgoFC8Z5IoSSBuSRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hiprice_Prefix-cfqodvmycxxfpcegqbpnkwjzehdd/hiprice_Prefix.pch.gch0#
+
+CTouch /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app
+s320669578.934514
+e320669578.937969
+r1
+xTouch
+x/Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app
+lSLF07#2@83"Touch /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app320669578#320669578#0(0"0(0#0#0"8625504640#274"    cd /Users/jianglichi/Documents/hiprice    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jianglichi/Documents/hiprice/build/Release-iphonesimulator/hiprice.app0#
+
